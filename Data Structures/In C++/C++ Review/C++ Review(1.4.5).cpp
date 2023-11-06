@@ -15,7 +15,7 @@ void delete2darray(T ** &x,int numberofRows)
     for(int i=1;i<=numberofRows;i++) delete []x[i];
     delete []x;
     x=NULL;
-}
+}//内存释放
 int main()
 {
     int **X,r=4,c[4];//样例数据
